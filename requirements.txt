@@ -12,6 +12,7 @@ pillow
 psutil
 py-tgcalls==0.8.6
 pykeyboard
+pymongo==3.6
 pyrogram==1.4.16
 python-dotenv
 pyyaml
