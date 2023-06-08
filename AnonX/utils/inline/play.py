@@ -32,7 +32,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 80 <= anon < 95:
         bar = "ﮩ٨ﮩﮩ٨ـ♡ﮩ٨ـﮩ٨ـﮩﮩ٨ـ"
     else:
-        bar = ⇜(シɪ ʜᴀᴛᴇ ᴜシ)⇝"
+        bar = "⇜(シɪ ʜᴀᴛᴇ ᴜシ)⇝"
 
     buttons = [
         [
