@@ -1,5 +1,5 @@
 PING_COMMAND : ["ding", "live"]
-START_COMMAND : ["jstart", "mstart"]
+START_COMMAND : ["jstart", "jstart"]
 HELP_COMMAND : ["jhelp"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
