@@ -60,7 +60,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
         ],
         [
-            InlineKeyboardButton(
+                InlineKeyboardButton(
+                text=_["ᴄᴏᴜᴘʟᴇ ᴅᴘ"],
+                url=f"https://t.me/couples_dp_world"
+            ),
+                InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -117,7 +121,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
         ],
         [
-            InlineKeyboardButton(
+                InlineKeyboardButton(
+                text=_["ᴄᴏᴜᴘʟᴇ ᴅᴘ"],
+                url=f"https://t.me/couples_dp_world"
+            ),
+                InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
