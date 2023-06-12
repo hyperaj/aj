@@ -50,22 +50,18 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="☆", callback_data=f"add_playlist {videoid}"
+                text="❦", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+                text="▣", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
-                InlineKeyboardButton(
-                text=_["ᴄᴏᴜᴘʟᴇ ᴅᴘ"],
-                url=f"https://t.me/couples_dp_world"
-            ),
-                InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            InlineKeyboardButton(
+                text="✯ ᴄᴏᴜᴘʟᴇ ᴅᴘ ✯", url=f"https://t.me/couples_dp_world"
             )
         ],
     ]
@@ -117,16 +113,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+                text="▣", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
-                InlineKeyboardButton(
-                text=_["ᴄᴏᴜᴘʟᴇ ᴅᴘ"],
-                url=f"https://t.me/couples_dp_world"
-            ),
-                InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            InlineKeyboardButton(
+                text="❦ ᴄᴏᴜᴘʟᴇ ᴅᴘ ❢", url=f"https://t.me/couples_dp_world"
             )
         ],
     ]
@@ -144,18 +136,18 @@ def stream_markup(_, videoid, chat_id):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="☆", callback_data=f"add_playlist {videoid}"
+                text="❦", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+                text="▣", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="❦ ᴄᴏᴜᴘʟᴇ ᴅᴘ ❢", url=f"https://t.me/couples_dp_world"
             )
         ],
     ]
@@ -176,12 +168,12 @@ def telegram_markup(_, chat_id):
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+                text="▣", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="❦ ᴄᴏᴜᴘʟᴇ ᴅᴘ ❢", url=f"https://t.me/couples_dp_world"
             )
         ],
     ]
@@ -305,7 +297,7 @@ close_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                        text="❦ ᴄᴏᴜᴘʟᴇ ᴅᴘ ❢", url=f"https://t.me/couples_dp_world"
                     )
                 ]    
             ]
@@ -325,18 +317,18 @@ def queue_markup(_, videoid, chat_id):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="☆", callback_data=f"add_playlist {videoid}"
+                text="❦", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+                text="▣", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="❦ ᴄᴏᴜᴘʟᴇ ᴅᴘ ❢", url=f"https://t.me/couples_dp_world"
             )
         ],
     ]
